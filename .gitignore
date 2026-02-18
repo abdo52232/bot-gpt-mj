@@ -1,5 +1,22 @@
+# Node
 node_modules/
+
+# Gros exports / caches / data
 pinclicks_exports/
 websites/
+**/*.csv
+**/*.json
+
+# Exceptions (ON GARDE la config si besoin)
+!package.json
+!package-lock.json
+!server2.js
+!login.html
+!dashboard.html
+!public/**
+!src/**
+!views/**
+!*.md
+
+# Logs
 *.log
-.DS_Store
