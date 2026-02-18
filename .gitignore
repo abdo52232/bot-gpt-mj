@@ -1,1 +1,5 @@
-
+node_modules/
+pinclicks_exports/
+websites/
+*.log
+.DS_Store
